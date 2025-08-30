@@ -1,12 +1,30 @@
-# React + Vite
+📖 Dictionary App
+A simple Dictionary App built with React.js that fetches real-time word definitions and synonyms using a dictionary API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+🔍 Search for word definitions instantly
+📚 View synonyms 
+🎨 Responsive and clean UI built with React & Tailwind CSS
 
-Currently, two official plugins are available:
+🛠️ Tech Stack
+Frontend: React.js, JavaScript , TailwindCSS
+API: https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(searchWord)}`)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Version Control: GitHub
 
-## Expanding the ESLint configuration
+📂 Project Setup
+Clone the repository
+git clone https://github.com/your-username/dictionary-app.git
+Navigate to the project folder
+cd dictionary-app
+Install dependencies
+npm install
+Run the development server
+npm start
+The app will run at http://localhost:3000/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🤝 Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+📜 License
+This project is licensed under the MIT License.
